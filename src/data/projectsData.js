@@ -3,6 +3,9 @@ import seven from '../assets/svg/projects/seven.svg'
 import booking from '../assets/png/bokkingapp.png'
 import car from '../assets/png/CarRental.png'
 import backend from '../assets/png/Backend.png'
+import fit from '../assets/png/fit.png'
+import pm from '../assets/png/planet.png'
+
 
 
 export const projectsData = [
@@ -35,19 +38,20 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
+        projectName: 'FitApp',
+        projectDesc: 'This project is a frontend page for FitApp webpage.',
         tags: ['React', 'CSS', 'Material Ui'],
         code: 'https://github.com/said7388/Travel-Agency-client',
-        image: eight
+        demo:'https://fit-app-seven.vercel.app/',
+        image: fit
     },
     {
         id: 5,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        image: eight
+        projectName: 'PlanetMarket',
+        projectDesc: 'This project is stil in development. Fullstack web shop market. Create your store and sell or just be a buyer',
+        tags: ['NextJS 13', 'Tailwind', 'PlanetScale mysql', 'Clerk'],
+        code: 'https://github.com/Ondrej89/PlanetMarket',
+        image: pm
     },
     {
         id: 6,
