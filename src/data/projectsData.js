@@ -1,6 +1,8 @@
 import eight from '../assets/svg/projects/eight.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import booking from '../assets/png/bokkingapp.png'
+import car from '../assets/png/CarRental.png'
+import backend from '../assets/png/Backend.png'
 
 
 export const projectsData = [
@@ -20,7 +22,7 @@ export const projectsData = [
         tags: ['NextJS 13', 'Tailwind', 'PlanetScale mysql', 'Prisma', 'TypeScript'],
         code: 'https://github.com/Ondrej89/E-commerce-backend',
         demo: 'https://e-commerce-backend-ashen.vercel.app/',
-        image: seven
+        image: backend
     },
     {
         id: 3,
@@ -29,7 +31,7 @@ export const projectsData = [
         tags: ['React', 'CSS', 'Material Ui'],
         code: 'https://github.com/Ondrej89/Rent-a-Car',
         demo: 'https://rent-a-car-mu.vercel.app/',
-        image: eight
+        image: car
     },
     {
         id: 4,
