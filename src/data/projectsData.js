@@ -1,5 +1,4 @@
-import eight from '../assets/svg/projects/eight.svg'
-import seven from '../assets/svg/projects/seven.svg'
+
 import booking from '../assets/png/bokkingapp.png'
 import car from '../assets/png/CarRental.png'
 import backend from '../assets/png/Backend.png'

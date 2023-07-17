@@ -16,6 +16,7 @@ export const skillsData = [
     'Photoshop',
     'AWS',
     'C#',
+    'C++',
     'ViteJS',
     'Tensorflow',
     'Wordpress'

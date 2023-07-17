@@ -74,6 +74,7 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import nodejs from '../assets/svg/skills/NodeJS.svg'
 
 
 export const skillsImage = (skill) => {
@@ -81,6 +82,8 @@ export const skillsImage = (skill) => {
     switch (skillID) {
         case 'gcp':
             return gcp;
+        case 'node js':
+            return nodejs;
         case 'html':
             return html;
         case 'photoshop':
