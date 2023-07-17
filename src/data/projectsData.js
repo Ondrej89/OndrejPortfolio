@@ -1,43 +1,58 @@
 import eight from '../assets/svg/projects/eight.svg'
 import seven from '../assets/svg/projects/seven.svg'
-import six from '../assets/svg/projects/six.svg'
+import booking from '../assets/png/bokkingapp.png'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
+        projectName: 'Booking app',
+        projectDesc: 'This is a fullstack project for booking hotels, homes or bungalovs. You als can advertise your own place.',
+        tags: ['NextJS 13', 'Tailwind', 'Prisma', 'MongoDB', 'TypeScript'],
+        code: 'https://github.com/Ondrej89/VacatioBooking',
+        demo: 'https://vacation-booking.vercel.app/',
+        image: booking
     },
     {
         id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
+        projectName: 'Shopp Backend',
+        projectDesc: 'This project is a backend project for creating and maintaining stores.',
+        tags: ['NextJS 13', 'Tailwind', 'PlanetScale mysql', 'Prisma', 'TypeScript'],
+        code: 'https://github.com/Ondrej89/E-commerce-backend',
+        demo: 'https://e-commerce-backend-ashen.vercel.app/',
         image: seven
     },
     {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
+        projectName: 'Rent-a-Car',
+        projectDesc: 'This project is a frontend web app for rent-a-car buissnes.',
         tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
+        code: 'https://github.com/Ondrej89/Rent-a-Car',
+        demo: 'https://rent-a-car-mu.vercel.app/',
         image: eight
     },
     {
-        id: 3,
+        id: 4,
         projectName: 'Travel Agency',
         projectDesc: 'This project about travel agency management.',
         tags: ['React', 'CSS', 'Material Ui'],
         code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
+        image: eight
+    },
+    {
+        id: 5,
+        projectName: 'Travel Agency',
+        projectDesc: 'This project about travel agency management.',
+        tags: ['React', 'CSS', 'Material Ui'],
+        code: 'https://github.com/said7388/Travel-Agency-client',
+        image: eight
+    },
+    {
+        id: 6,
+        projectName: 'Travel Agency',
+        projectDesc: 'This project about travel agency management.',
+        tags: ['React', 'CSS', 'Material Ui'],
+        code: 'https://github.com/said7388/Travel-Agency-client',
         image: eight
     }
 ]
