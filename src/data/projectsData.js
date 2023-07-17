@@ -31,7 +31,7 @@ export const projectsData = [
         id: 3,
         projectName: 'Rent-a-Car',
         projectDesc: 'This project is a frontend web app for rent-a-car buissnes.',
-        tags: ['React', 'CSS', 'Material Ui'],
+        tags: ['React', 'SCSS'],
         code: 'https://github.com/Ondrej89/Rent-a-Car',
         demo: 'https://rent-a-car-mu.vercel.app/',
         image: car
@@ -40,7 +40,7 @@ export const projectsData = [
         id: 4,
         projectName: 'FitApp',
         projectDesc: 'This project is a frontend page for FitApp webpage.',
-        tags: ['React', 'CSS', 'Material Ui'],
+        tags: ['React', 'CSS'],
         code: 'https://github.com/said7388/Travel-Agency-client',
         demo:'https://fit-app-seven.vercel.app/',
         image: fit
@@ -52,14 +52,6 @@ export const projectsData = [
         tags: ['NextJS 13', 'Tailwind', 'PlanetScale mysql', 'Clerk'],
         code: 'https://github.com/Ondrej89/PlanetMarket',
         image: pm
-    },
-    {
-        id: 6,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        image: eight
     }
 ]
 
