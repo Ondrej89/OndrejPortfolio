@@ -4,7 +4,7 @@ import car from '../assets/png/CarRental.png'
 import backend from '../assets/png/Backend.png'
 import fit from '../assets/png/fit.png'
 import pm from '../assets/png/planet.png'
-
+import port from '../assets/png/portfolio.png'
 
 
 export const projectsData = [
@@ -51,6 +51,15 @@ export const projectsData = [
         tags: ['NextJS 13', 'Tailwind', 'PlanetScale mysql', 'Clerk'],
         code: 'https://github.com/Ondrej89/PlanetMarket',
         image: pm
+    },
+    {
+        id: 6,
+        projectName: 'Portfolio',
+        projectDesc: 'This project is stil in development. Fullstack web portfolio space for developers to shere their projects.',
+        tags: ['NextJS 13', 'Tailwind', 'Grafbase', 'Typescript'],
+        code: 'https://github.com/Ondrej89/appPortfolio',
+        demo:'https://app-portfolio-pearl.vercel.app',
+        image: port
     }
 ]
 
