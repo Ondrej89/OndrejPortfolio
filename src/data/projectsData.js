@@ -29,7 +29,7 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'Rent-a-Car',
-        projectDesc: 'This project is a frontend web app for rent-a-car buissnes.',
+        projectDesc: 'This project is a frontend web app for rent-a-car business.',
         tags: ['React', 'SCSS'],
         code: 'https://github.com/Ondrej89/Rent-a-Car',
         demo: 'https://rent-a-car-mu.vercel.app/',
