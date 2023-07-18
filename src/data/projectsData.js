@@ -47,7 +47,7 @@ export const projectsData = [
     {
         id: 5,
         projectName: 'PlanetMarket',
-        projectDesc: 'This project is stil in development. Fullstack web shop market. Create your store and sell or just be a buyer',
+        projectDesc: 'This project is stil in development no live site. Fullstack web shop market. Create your store and sell or just be a buyer',
         tags: ['NextJS 13', 'Tailwind', 'PlanetScale mysql', 'Clerk'],
         code: 'https://github.com/Ondrej89/PlanetMarket',
         image: pm
