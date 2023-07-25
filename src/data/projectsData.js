@@ -5,6 +5,7 @@ import backend from '../assets/png/Backend.png'
 import fit from '../assets/png/fit.png'
 import pm from '../assets/png/planet.png'
 import port from '../assets/png/portfolio.png'
+import blackboard from '../assets/png/blackboard.jpeg.png'
 
 
 export const projectsData = [
@@ -60,6 +61,14 @@ export const projectsData = [
         code: 'https://github.com/Ondrej89/appPortfolio',
         demo:'https://app-portfolio-pearl.vercel.app',
         image: port
+    },
+    {
+        id: 7,
+        projectName: 'Drawing app for LSM systems',
+        projectDesc: 'This project is an plugin for LSM systems. It supports realtime drawing and multiple users',
+        tags: ['NextJS 13', 'Tailwind', 'Typescript'],
+        demo:'https://draw-bay.vercel.app/',
+        image: blackboard
     }
 ]
 
