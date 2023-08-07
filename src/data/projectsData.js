@@ -38,13 +38,13 @@ export const projectsData = [
         image: car
     },
     {
-        id: 8,
-        projectName: 'FitApp',
-        projectDesc: 'This project is a frontend page for FitApp webpage.',
-        tags: ['React', 'CSS'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo:'https://fit-app-seven.vercel.app/',
-        image: fit
+        id: 4,
+        projectName: 'Social network for travelers called Holiday',
+        projectDesc: 'Work in progress social network where users can Upload pictures and add valuable information about place where they are staing.',
+        tags: ['NextJS 13', 'Tailwind', 'Typescript, MongoDB'],
+        code: 'https://github.com/Ondrej89/network',
+        demo:'https://holiday-alpha.vercel.app/',
+        image: holy
     },
     {
         id: 5,
@@ -72,13 +72,14 @@ export const projectsData = [
         image: blackboard
     },
     {
-        id: 4,
-        projectName: 'Social network for travelers called Holiday',
-        projectDesc: 'Work in progress social network where users can Upload pictures and add valuable information about place where they are staing.',
-        tags: ['NextJS 13', 'Tailwind', 'Typescript, MongoDB'],
-        code: 'https://github.com/Ondrej89/network',
-        demo:'https://holiday-alpha.vercel.app/',
-        image: holy
+        
+        id: 8,
+        projectName: 'FitApp',
+        projectDesc: 'This project is a frontend page for FitApp webpage.',
+        tags: ['React', 'CSS'],
+        code: 'https://github.com/said7388/Travel-Agency-client',
+        demo:'https://fit-app-seven.vercel.app/',
+        image: fit
     }
 ]
 
