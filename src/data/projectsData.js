@@ -6,6 +6,7 @@ import fit from '../assets/png/fit.png'
 import pm from '../assets/png/planet.png'
 import port from '../assets/png/portfolio.png'
 import blackboard from '../assets/png/blackboard.jpeg.png'
+import holy from "../assets/png/holiday.jpeg"
 
 
 export const projectsData = [
@@ -37,7 +38,7 @@ export const projectsData = [
         image: car
     },
     {
-        id: 4,
+        id: 8,
         projectName: 'FitApp',
         projectDesc: 'This project is a frontend page for FitApp webpage.',
         tags: ['React', 'CSS'],
@@ -69,6 +70,15 @@ export const projectsData = [
         tags: ['NextJS 13', 'Tailwind', 'Typescript'],
         demo:'https://draw-bay.vercel.app/',
         image: blackboard
+    },
+    {
+        id: 4,
+        projectName: 'Social network for travelers called Holiday',
+        projectDesc: 'Work in progress social network where users can Upload pictures and add valuable information about place where they are staing.',
+        tags: ['NextJS 13', 'Tailwind', 'Typescript, MongoDB'],
+        code: 'https://github.com/Ondrej89/network',
+        demo:'https://holiday-alpha.vercel.app/',
+        image: holy
     }
 ]
 
